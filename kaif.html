@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mohamed Kaif | Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #eaf0f6;
+      color: #333;
+      user-select: none; /* Disable text selection */
+    }
+
+    header {
+      background-color: #1a1a2e;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 30px auto;
+      background-color: #fff;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    .section {
+      margin-bottom: 30px;
+    }
+
+    h2 {
+      color: #1a1a2e;
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 8px;
+      margin-bottom: 15px;
+    }
+
+    .info p {
+      margin: 10px 0;
+      line-height: 1.6;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    ul li {
+      margin-bottom: 10px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #1a1a2e;
+      color: white;
+    }
+  </style>
+
+  <script>
+    // Disable right-click
+    document.addEventListener("contextmenu", function (e) {
+      e.preventDefault();
+    });
+
+    // Optional: Disable key combos like Ctrl+C
+    document.addEventListener("keydown", function (e) {
+      if ((e.ctrlKey && e.key === "c") || (e.ctrlKey && e.key === "u")) {
+        e.preventDefault();
+      }
+    });
+  </script>
+</head>
+
+<body>
+  <header>
+    <h1>Mohamed Kaif</h1>
+    <p>Computer Science Engineering Student at LICET</p>
+  </header>
+
+  <div class="container">
+    <div class="section info">
+      <h2>Personal Information</h2>
+      <p><strong>Age:</strong> 18</p>
+      <p><strong>Date of Birth:</strong> 27 July 2006</p>
+      <p><strong>GPA:</strong> 8.52</p>
+    </div>
+
+    <div class="section">
+      <h2>Academic Details</h2>
+      <p><strong>College:</strong> Loyola-ICAM College of Engineering and Technology (LICET)</p>
+      <p><strong>Department:</strong> Computer Science Engineering</p>
+      <p><strong>Languages Known:</strong> C, Python, HTML, CSS</p>
+    </div>
+
+    <div class="section">
+      <h2>Achievements</h2>
+      <ul>
+        <li>Third Place in Coding Competition</li>
+        <li>Third Place in Technical Quiz</li>
+        <li>First Place in Science Quiz</li>
+      </ul>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 Mohamed Kaif. All Rights Reserved.
+  </footer>
+</body>
+</html>
